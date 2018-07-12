@@ -1,0 +1,12 @@
+cover:
+  - platform: mqtt
+    name: "Window Curtains"
+    command_topic: "smartcurtains/curtains/set"
+    state_topic: "smartcurtains/curtains/state"
+    set_position_topic: "smartcurtains/curtains/position"
+    payload_open: "OPEN"
+    payload_close: "CLOSE"
+    payload_stop: "STOP"
+    state_open: "OPENED"
+    state_closed: "CLOSED"
+    retain: false
